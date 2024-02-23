@@ -42,4 +42,4 @@ def send_discord_message(username, message):
 
 if __name__ == '__main__':
     app.register_blueprint(pages, url_prefix="/")
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0')
